@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "==1.24.1"
+torch = "==2.3.1"
+llama-index = ">=0.8.5"
+langchain-community = "*"
+ibm-watson-machine-learning = ">=1.0.320"
+python-dotenv = "==1.0.0"
+scikit-learn = "*"
+pandas = "*"
+flask = "*"
+openai = "*"
+google-cloud-aiplatform = ">=1.38"
+vertexai = "*"
+psycopg2-binary = "*"
+pgcli = "*"
+pillow = "*"
+gunicorn = "*"
+
+[dev-packages]
+tqdm = "*"
+notebook = "==7.1.2"
+ipywidgets = "*"
+
+[requires]
+# python_version = "3.12"
+# python_full_version = "3.12.3"
